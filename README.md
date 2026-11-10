@@ -1,4 +1,4 @@
-# Software Talenten
+# Software Talent
 
 ##
 * 
@@ -12,5 +12,6 @@
 3.Docenten(Admin) kunnen Projecten toevoegen.
 4.Docenten(Admin) kunnen wat op het website verschijnt beheeren.
 5.Klanten kunnen kontakt nemen met docenten over bepalde projecten.
+
 
 

@@ -7,11 +7,18 @@
 * 
 ## Functionalitiet
 
-1.Je kan projecten inleveren in de websites.
-2.Projecten worden in de websites verschijnt.
-3.Docenten(Admin) kunnen Projecten toevoegen.
-4.Docenten(Admin) kunnen wat op het website verschijnt beheeren.
-5.Klanten kunnen kontakt nemen met docenten over bepalde projecten.
+Projecten zouden prototypen zijn.
+Je kan projecten inleveren in de websites?????? / Je kan projecten via webiste op e-mail sturen
+Projecten worden in de websites verschijnt.
+Je kan zien informaties over het project.
+Als Admin kunnen Projecten toevoegen.
+Als Admin kunnen wat op het website verschijnt beheeren- projecten,informaties plaatjes.
+Klanten kunnen contact nemen over bepalde projecten.
+
+
+# vragen
+wil je projecten zounden via mail of via webside
+heb je idee wat voor cleuren op het website moeten zijn
 
 
 

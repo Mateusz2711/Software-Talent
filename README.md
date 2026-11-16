@@ -19,6 +19,8 @@ Klanten kunnen contact nemen over bepalde projecten.
 # vragen
 wil je projecten zounden via mail of via webside
 heb je idee wat voor cleuren op het website moeten zijn
+welke functionaliteit moet de websit hebben
+
 
 
 

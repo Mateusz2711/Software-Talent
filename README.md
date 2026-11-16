@@ -18,8 +18,11 @@ Klanten kunnen contact nemen over bepalde projecten.
 
 # vragen
 wil je projecten zounden via mail of via webside
-heb je idee wat voor cleuren op het website moeten zijn
-welke functionaliteit moet de websit hebben
+heb je idee wat voor kleuren op het website moeten zijn
+welke functionaliteit moet de website hebben
+hoe moet lay-out eruit zien
+prijzen?
+Moet de website geschikt zijn voor zowel computers als mobiele telefoons?
 
 
 

@@ -31,14 +31,12 @@ Moet de website geschikt zijn voor zowel computers als mobiele telefoons?
 software bedrijf waar zijn studenten in plaats van leerlingen
 kost geen geld maar tijd
 opzoek naar projecten van studenten om studenten helpen ontwikellen
-games, websites, aplicaties , cyber security
+games, webaplicaties , AI oplissingen, cyber security & testen, automatisereing
+
+
 
 
 # 1 
-AI chatbots  processen AI automatiseren
-
-
-# 2 
 zo snel mogelijk contact met docent - zo snel mogelijk agenda afsprak maken
 contact van bedrijfen met docent over project en of er leerlingen zijn die kunnen dit maken
 
@@ -57,6 +55,7 @@ hero tekst
 waroom doe je mee
 
 stapen hoe dat werk
+
 
 welke projecte wij zoeken
 
@@ -84,11 +83,15 @@ DigiLab
 ######
 
 
-# 3 Array met projecten
+# 2 Array met projecten
+Wat moet er zijn
 
-rojecten uitschrijven 
-wanner begint het
-hoe lang duurt het
+1.foto
+2.uitschrijven van project
+3.welke softwaere product dit is
+games, webaplicaties , AI oplissingen, cyber security & testen, automatisereing
+4.Begin datum van het project en wanner het klaar is
+5.button om afspraak maken in agenda 
 # 
 
 microsoft bookings

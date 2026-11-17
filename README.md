@@ -44,7 +44,7 @@ contact van bedrijfen met docent over project en of er leerlingen zijn die kunne
 
 dus agenda met beschrikbaarhed (datums en tijden) op eerste pagina
 
-contact pagina over hte projecten( bedrijven gaan bespreken met docent over projecten en docent gaat checken of er leerlingen zijn die kunnen dit project maken)
+contact pagina over hte projecten( bedrijven gaan bespreken met docent over projecten en docent gaat checken of er leerlingen zijn die dit project maken)
 
 knoppen afsprak maken
 
@@ -99,5 +99,4 @@ zo veel mogelijk op een pagina
 #####
 * * * * DEADLINE----> Drie weken
 #####
-
 

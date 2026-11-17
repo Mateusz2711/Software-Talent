@@ -32,20 +32,46 @@ software bedrijf waar zijn studenten in plaats van leerlingen
 kost geen geld maar tijd
 opzoek naar projecten van studenten om studenten helpen ontwikellen
 games, websites, aplicaties , cyber security
+
+
+# 1 
 AI chatbots  processen AI automatiseren
+
+
+# 2 
 zo snel mogelijk contact met docent - zo snel mogelijk agenda afsprak maken
-contact van mbedrijfen met docent over project en of er leerlingen zijn die kunnen dit maken
--------
+contact van bedrijfen met docent over project en of er leerlingen zijn die kunnen dit maken
+
+dus agenda met beschrikbaarhed (datums en tijden) op eerste pagina
+
+contact pagina over hte projecten( bedrijven gaan bespreken met docent over projecten en docent gaat checken of er leerlingen zijn die kunnen dit project maken)
+
 knoppen afsprak maken
+
+-------
+
+# Home Page
+
 hero tekst
+
 waroom doe je mee
 
-3 stapen hoe dat werk
+stapen hoe dat werk
 
 welke projecte wij zoeken
 
 resultaat verleden bekijken
+
+partners
+
+onze studenten werken samen met .......
+
+succses verhaal
+
 meest gestelde vragen
+#
+
+###### Stijl
 
 stijl van ROC VAN FLEVOLAND
 cleuren,letertypes,logo
@@ -55,16 +81,15 @@ daylinq
 flevodevs
 DigiLab
 
+######
 
-partners
-onze studenten werken samen met .......
 
-succses verhaal
+# 3 Array met projecten
 
-projecten uitschrijven
-
+rojecten uitschrijven 
 wanner begint het
 hoe lang duurt het
+# 
 
 microsoft bookings
 
@@ -74,6 +99,5 @@ zo veel mogelijk op een pagina
 #####
 * * * * DEADLINE----> Drie weken
 #####
-
 
 

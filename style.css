@@ -186,7 +186,10 @@ h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin-bottom: 2rem; }
 .appointment-panel p {
   color: var(--text-soft);
   margin-bottom: 20px;
+  border-bottom: 1px solid var(--text-soft);
 }
+
+
 
 .time-options {
   display: grid;

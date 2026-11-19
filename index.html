@@ -52,9 +52,10 @@ document.addEventListener('DOMContentLoaded', function() {
     </a>
 
     <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
       <a href="projecten.html">Projecten</a>
       <a href="#">Project inleveren</a>
-      <a href="#">Over ons</a>
+      <a href="over-ons.html">Over ons</a>
       <a href="#" class="nav-icon" aria-label="Inloggen">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
       </a>
@@ -66,12 +67,17 @@ document.addEventListener('DOMContentLoaded', function() {
     <section class="hero">
       <div class="hero-card">
         <p class="eyebrow">Software Talent</p>
-        <h1>Studenten bouwen echte software voor jouw bedrijf</h1>
-        <p class="hero-sub">Heb jij een idee voor een website, app of systeem? Onze software-studenten van ROC van Flevoland maken er een werkend prototype van.</p>
+        <h1>Software op maat laten ontwikkelen?</h1>
+        <p class="hero-sub">Van prototype tot werkende applicatie. Ontwikkeld door ambitieuze softwaretalenten onder begeleiding van ervaren docenten en professionals.</p>
         <div class="hero-buttons">
-          <a href="#" class="btn btn-white">Project aanmelden <span>&rarr;</span></a>
-          <a href="projecten.html" class="btn btn-outline">Bekijk projecten</a>
+          <a href="#afspraak" class="btn btn-white">Plan een vrijblijvend gesprek <span>&rarr;</span></a>
+          <a href="#" class="btn btn-outline">Dien je idee in</a>
         </div>
+        <ul class="check-list">
+          <li>Betaalbaarder dan een traditioneel softwarebureau</li>
+          <li>Ontwikkeling door gemotiveerde softwaretalenten</li>
+          <li>Begeleiding door ervaren softwareprofessionals</li>
+        </ul>
       </div>
       <div class="hero-image">
         <!-- Later: foto van studenten -->
@@ -79,46 +85,79 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </section>
 
-    <!-- ===== 2. WAAROM DOE JE MEE ===== -->
-    <section class="section" id="waarom">
+    <!-- ===== 2. HOE WERKT HET ===== -->
+    <section class="section section-tint" id="hoe-werkt-het">
       <div class="container">
-        <p class="eyebrow eyebrow-orange">Waarom</p>
-        <h2>Waarom doe je mee?</h2>
+        <p class="eyebrow eyebrow-orange">Hoe werkt het?</p>
+        <h2>In 3 stappen naar jouw software-oplossing</h2>
         <div class="grid grid-3">
-          <div class="placeholder card">Voordeel 1</div>
-          <div class="placeholder card">Voordeel 2</div>
-          <div class="placeholder card">Voordeel 3</div>
+          <div class="step-card">
+            <span class="step-number">1</span>
+            <h3>Deel jouw idee</h3>
+            <p>Beschrijf jouw uitdaging, software-idee of innovatievraagstuk.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">2</span>
+            <h3>Bouw samen aan de oplossing</h3>
+            <p>Studentontwikkelaars werken aan jouw project en betrekken je tijdens belangrijke feedbackmomenten.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-number">3</span>
+            <h3>Ontvang het resultaat</h3>
+            <p>Je krijgt een werkend prototype, inclusief broncode en documentatie.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== 3. STAPPEN ===== -->
-    <section class="section section-tint" id="stappen">
+    <!-- ===== 3. SOFTWARE PRODUCTEN ===== -->
+    <section class="section" id="producten">
       <div class="container">
-        <p class="eyebrow eyebrow-orange">Zo werkt het</p>
-        <h2>In 4 stappen naar jouw prototype</h2>
-        <div class="grid grid-4">
-          <div class="placeholder card">Stap 1</div>
-          <div class="placeholder card">Stap 2</div>
-          <div class="placeholder card">Stap 3</div>
-          <div class="placeholder card">Stap 4</div>
+        <p class="eyebrow eyebrow-orange">Software producten</p>
+        <h2>Wat kunnen wij voor je bouwen?</h2>
+        <div class="grid grid-products">
+          <div class="product-card">
+            <h3>Webapplicaties</h3>
+            <ul>
+              <li>CRM-systemen</li>
+              <li>Klantportalen</li>
+              <li>Boekingsplatforms</li>
+              <li>WordPress websites</li>
+            </ul>
+          </div>
+          <div class="product-card">
+            <h3>Games</h3>
+            <ul>
+              <li>Escaperoom</li>
+              <li>Serious Games</li>
+            </ul>
+          </div>
+          <div class="product-card">
+            <h3>AI-oplossingen</h3>
+            <ul>
+              <li>Chatbots</li>
+              <li>AI-assistenten</li>
+              <li>Documentanalyse</li>
+            </ul>
+          </div>
+          <div class="product-card">
+            <h3>Automatisering</h3>
+            <ul>
+              <li>Koppelingen tussen systemen</li>
+              <li>Workflow automatisering</li>
+              <li>Rapportages</li>
+            </ul>
+          </div>
+          <div class="product-card">
+            <h3>Cybersecurity &amp; testen</h3>
+            <ul>
+              <li>Test je software</li>
+              <li>Ethisch hacken</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
-
-    <!-- ===== 4. WELKE PROJECTEN ZOEKEN WIJ ===== -->
-    <section class="section" id="wat-zoeken-wij">
-      <div class="container">
-        <p class="eyebrow eyebrow-orange">Projecten</p>
-        <h2>Welke projecten zoeken wij?</h2>
-        <div class="grid grid-3">
-          <div class="placeholder card">Websites / webshops</div>
-          <div class="placeholder card">Apps</div>
-          <div class="placeholder card">Systemen (bijv. afspraken)</div>
-        </div>
-      </div>
-    </section>
-
 
     <!-- ===== Agenda voor afspraken ===== -->
     <section class="section calendar-section" id="afspraak">
@@ -140,13 +179,13 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </section>
 
-    <!-- ===== 5. RESULTATEN UIT HET VERLEDEN ===== -->
-    <section class="section section-tint" id="resultaten">
+    <!-- ===== 4. VOORBEELDPROJECTEN (teksten volgen later) ===== -->
+    <section class="section section-tint" id="voorbeeldprojecten">
       <div class="container">
         <div class="section-head">
           <div>
             <p class="eyebrow eyebrow-orange">Portfolio</p>
-            <h2>Resultaten uit het verleden</h2>
+            <h2>Voorbeeldprojecten</h2>
           </div>
           <a href="projecten.html" class="link-arrow">Alle projecten &rarr;</a>
         </div>
@@ -158,29 +197,44 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </section>
 
+    <!-- ===== 5. OVER ONS (kort) ===== -->
+    <section class="section" id="over-ons">
+      <div class="container split">
+        <div>
+          <p class="eyebrow eyebrow-orange">Over ons</p>
+          <h2>Talent ontmoet ondernemers</h2>
+          <p class="text">SoftwareTalent verbindt ambitieuze softwareontwikkelaars met ondernemers die een digitaal product willen realiseren. Studenten werken aan echte opdrachten en worden begeleid door ervaren docenten en professionals uit het werkveld.</p>
+          <a href="over-ons.html" class="link-arrow link-block">Meer over ons &rarr;</a>
+        </div>
+        <div class="placeholder split-image">Foto</div>
+      </div>
+    </section>
+
     <!-- ===== 6. PARTNERS ===== -->
-    <section class="section" id="partners">
+    <section class="section section-tint" id="partners">
       <div class="container">
         <p class="eyebrow eyebrow-orange">Partners</p>
         <h2>Onze studenten werken samen met</h2>
-        <div class="logo-row">
-          <div class="placeholder logo-box">Logo</div>
-          <div class="placeholder logo-box">Logo</div>
-          <div class="placeholder logo-box">Logo</div>
-          <div class="placeholder logo-box">Logo</div>
-          <div class="placeholder logo-box">Logo</div>
+        <div class="partner-row">
+          <div class="partner-box">Daylinq</div>
+          <div class="partner-box">Flevodevs</div>
+        </div>
+        <div class="partner-cta">
+          <p>Wil je ook partner worden?</p>
+          <a href="#afspraak" class="btn btn-orange">Plan een afspraak in <span>&rarr;</span></a>
         </div>
       </div>
     </section>
 
-    <!-- ===== 7. SUCCESVERHAAL ===== -->
-    <section class="section section-orange" id="succesverhaal">
-      <div class="container split">
-        <div class="placeholder placeholder-light split-image">Foto</div>
-        <div>
-          <p class="eyebrow">Succesverhaal</p>
-          <h2>Titel van het succesverhaal</h2>
-          <div class="placeholder placeholder-light text-block">Quote / verhaal van een bedrijf</div>
+    <!-- ===== 7. REVIEWS (volgt later) ===== -->
+    <section class="section section-orange" id="reviews">
+      <div class="container">
+        <p class="eyebrow">Reviews</p>
+        <h2>Wat zeggen anderen?</h2>
+        <div class="grid grid-3">
+          <div class="placeholder placeholder-light card">Review</div>
+          <div class="placeholder placeholder-light card">Review</div>
+          <div class="placeholder placeholder-light card">Review</div>
         </div>
       </div>
     </section>

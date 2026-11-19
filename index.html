@@ -8,8 +8,42 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet">
 </head>
+
 <body>
+
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+    let calendar = new FullCalendar.Calendar(
+        document.getElementById('calendar'),
+        {
+            initialView: 'dayGridMonth',
+            headerToolbar:{
+              left: 'prev,next today',
+              right: 'dayGridMonth,timeGridWeek,timeGridDay',
+            },
+            buttonText: {
+                today: 'Vandaag',
+                month: 'Maand',
+                week: 'Week',
+                day: 'Dag',
+            },
+            selectable: true,
+            validRange: {
+                start: '2026-11-01',
+                end: '2036-07-01'
+            },
+        }
+    );
+
+    calendar.render();
+
+});
+</script>
+
 
   <!-- ===== HEADER ===== -->
   <header class="site-header">
@@ -85,18 +119,25 @@
       </div>
     </section>
 
-    <section>
-    <!-- ===== Agenda voor afspraken ===== -->
-      <h1>Korte kennismaking</h1>
-      <h2>Kies een datum</h2>
-        <input type="date" id="date" name="date" min="2026-11-01" max="2036-06-30">
-      <h2>Kies een tijd</h2>
-    <div>
-      <button>8:00</button>
-      <button>9:00</button>
-      <button>10:00</button>
-    </div>
 
+    <!-- ===== Agenda voor afspraken ===== -->
+    <section class="section calendar-section" id="afspraak">
+      <div class="container">
+        <p class="eyebrow eyebrow-orange">Afspraak maken</p>
+        <h2>Korte kennismaking</h2>
+    <div class="calendar-layout">
+          <div id="calendar" aria-label="Kies een datum voor een afspraak"></div>
+          <aside class="appointment-panel">
+            <h3>Kies een datum en tijd</h3>
+            <p>Na het kiezen van een datum in de agenda ziet u de beschikbare tijden.</p>
+            <div class="time-options">
+              <button type="button">8:00</button>
+              <button type="button">9:00</button>
+              <button type="button">10:00</button>
+            </div>
+          </aside>
+        </div>
+      </div>
     </section>
 
     <!-- ===== 5. RESULTATEN UIT HET VERLEDEN ===== -->

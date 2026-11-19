@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,36 +14,11 @@
 
 <body>
 
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js"></script>
 
-    let calendar = new FullCalendar.Calendar(
-        document.getElementById('calendar'),
-        {
-            initialView: 'dayGridMonth',
-            headerToolbar:{
-              left: 'prev,next today',
-              right: 'dayGridMonth,timeGridWeek,timeGridDay',
-            },
-            buttonText: {
-                today: 'Vandaag',
-                month: 'Maand',
-                week: 'Week',
-                day: 'Dag',
-            },
-            selectable: true,
-            validRange: {
-                start: '2026-11-01',
-                end: '2036-07-01'
-            },
-        }
-    );
+  <script src="script.js"></script>
 
-    calendar.render();
 
-});
-</script>
 
 
   <!-- ===== HEADER ===== -->
@@ -57,7 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
       <a href="#">Project inleveren</a>
       <a href="over-ons.html">Over ons</a>
       <a href="#" class="nav-icon" aria-label="Inloggen">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="8" r="4" />
+          <path d="M4 21c0-4 4-6 8-6s8 2 8 6" />
+        </svg>
       </a>
     </nav>
   </header>
@@ -67,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <section class="hero">
       <div class="hero-card">
         <p class="eyebrow">Software Talent</p>
+<<<<<<< Updated upstream
         <h1>Software op maat laten ontwikkelen?</h1>
         <p class="hero-sub">Van prototype tot werkende applicatie. Ontwikkeld door ambitieuze softwaretalenten onder begeleiding van ervaren docenten en professionals.</p>
         <div class="hero-buttons">
@@ -164,15 +144,18 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="container">
         <p class="eyebrow eyebrow-orange">Afspraak maken</p>
         <h2>Korte kennismaking</h2>
-    <div class="calendar-layout">
+        <div class="calendar-layout">
           <div id="calendar" aria-label="Kies een datum voor een afspraak"></div>
           <aside class="appointment-panel">
             <h3>Kies een datum en tijd</h3>
             <p>Na het kiezen van een datum in de agenda ziet u de beschikbare tijden.</p>
             <div class="time-options">
-              <button type="button">8:00</button>
-              <button type="button">9:00</button>
-              <button type="button">10:00</button>
+              <button>09:00</button>
+              <button>10:00</button>
+              <button>11:00</button>
+              <button>13:00</button>
+              <button>14:00</button>
+              <button>15:00</button>
             </div>
           </aside>
         </div>
@@ -262,4 +245,5 @@ document.addEventListener('DOMContentLoaded', function() {
   </footer>
 
 </body>
+
 </html>
